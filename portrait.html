@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Photography Theme: Portrait</title>
+		
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="A minimalistic, responsive photography theme that is content-focused and mobile-friendly.">
+		<!-- 
+		<meta name="keywords" content="Photography, Portrait, St Louis, Wedding, Engagement, Student, Senior, Baby, Family, Professional">
+		-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user=scalable=yes">
+		<meta name="author" content="FirstName LastName">
+
+		<!-- favicon icon - need to get actual image from Heather -->
+		<link rel="shortcut icon" href="" type="image/x-icon">
+		<link rel="icon" href="" type="image/x-icon">
+
+		<!-- fonts! -->
+		<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>	
+
+		<!-- css -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="styles.css">
+		
+	</head>
+
+	<body>
+	
+	<div class="container" id="mainContainer">
+
+	<!-- Menu Button Container -->
+
+		<div class="row">
+			<div class="col-md-3">
+				<div class="menuButton">
+					<span class="menuBar" id="menuBar1"> <hr> </span>
+					<span class="menuBar" id="menuBar2"> <hr> </span>
+					<span class="menuBar" id="menuBar3"> <hr> </span>
+				</div>
+
+			</div>
+		</div> <!-- end Menu Button Container -->
+
+	<!-- Navigation Container -->
+
+		<div class="container" id="navigationContainer">
+			<div class="row">
+				
+				<div class="menuClose"><span>X</span></div>
+
+				<div class="col-md-12">
+					<ul class="col-md-12">
+						<li><a href="index.html">Home</a></li>					
+						<li><a href="wedding.html">Wedding</a></li>
+						<li><a href="family.html">Baby &amp; Family</a></li>
+						<li><a href="#">Portrait</a></li>
+						<li><a href="contact.html">Contact + Connect</a></li>
+					</ul>
+				</div>
+			</div>
+		</div> <!-- end navigationContainer -->
+		
+	<!-- Carousel Container -->
+
+		<div class="container" id="carouselContainer"> 
+			<div class="carousel slide fullCarousel" id="portraitCarousel">
+		
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#portraitCarousel"></li>
+			<li data-slide-to="1" data-target="#portraitCarousel"></li>
+			<li data-slide-to="2" data-target="#portraitCarousel"></li>
+			<li data-slide-to="3" data-target="#portraitCarousel"></li>
+			<li data-slide-to="4" data-target="#portraitCarousel"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">		
+
+			<a href="index.html"><span class="close">Close</span></a>
+			
+			<div class="item active" id="gallerySlide1">
+				<div class="fill" style="background-image: url('images/portrait1.jpg');"></div>	
+					
+			</div><!-- end item -->
+			
+			<div class="item" id="gallerySlide2">
+				<div class="fill" style="background-image: url('images/portrait2.jpg');"></div>
+
+			</div><!-- end item -->
+			
+			<div class="item" id="gallerySlide3">
+				<div class="fill" style="background-image: url('images/portrait3.jpg');"></div>
+					
+			</div><!-- end item -->
+
+			<div class="item" id="gallerySlide4">
+				<div class="fill" style="background-image: url('images/portrait4.jpg');"></div>
+				
+			</div><!-- end item -->
+
+			<div class="item" id="gallerySlide5">
+				<div class="fill" style="background-image: url('images/portrait5.jpg');"></div>
+				
+			</div><!-- end item -->
+
+		</div><!-- carousel-inner -->
+		
+		<!-- Controls -->
+		<a class="left carousel-control" data-slide="prev" href="#portraitCarousel" id="control-left"><span class="icon-prev"></span></a>
+		<a class="right carousel-control" data-slide="next" href="#portraitCarousel" id="control-right"><span class="icon-next"></span></a>
+
+
+		</div><!-- end portraitCarousel -->
+
+	</div> <!-- end carouselContainer -->
+
+</div> <!-- end mainContainer -->
+
+	<!-- Load online jQuery first -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Fall back to local file if online is unavailable -->
+	<script src="jquery-1.11.2.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="main.js"></script>
+	<script src="mainJQ.js"></script>
+	
+	</body>
+</html>
