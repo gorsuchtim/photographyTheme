@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Photography Theme: Home</title>
+		
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="A minimalistic, responsive photography theme that is content-focused and mobile-friendly.">
+		<!-- 
+		<meta name="keywords" content="Photography, Portrait, St Louis, Wedding, Engagement, Student, Senior, Baby, Family, Professional">
+		-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user=scalable=yes">
+		<meta name="author" content="FirstName LastName">
+
+		<!-- favicon icon - need to get actual image from Heather -->
+		<link rel="shortcut icon" href="" type="image/x-icon">
+		<link rel="icon" href="" type="image/x-icon">
+
+		<!-- fonts! -->
+		<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>	
+
+		<!-- css -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="styles.css">
+		
+	</head>
+
+	<body>
+	
+	<div class="container" id="mainContainer">
+
+	<!-- Menu Button -->
+
+		<div class="row">
+			<div class="col-md-3">
+				<div class="menuButton">
+					<span class="menuBar" id="menuBar1"> <hr> </span>
+					<span class="menuBar" id="menuBar2"> <hr> </span>
+					<span class="menuBar" id="menuBar3"> <hr> </span>
+				</div>
+
+			</div>
+		</div> <!-- end Menu Button -->
+
+	<!-- Navigation Container -->
+
+		<div class="container" id="navigationContainer">
+			<div class="row">
+				
+				<div class="menuClose"><span>X</span></div>
+
+				<div class="col-md-12">
+					<ul class="col-md-12 text-uppercase">
+						<li><a href="#">Home</a></li>						
+						<li><a href="wedding.html">Wedding</a></li>
+						<li><a href="family.html">Baby &amp; Family</a></li>
+						<li><a href="portrait.html">Portrait</a></li>
+						<li><a href="contact.html">Contact &amp; Connect</a></li>
+					</ul>
+				</div>
+			</div>
+		</div> <!-- end navigationContainer -->		
+	
+	<!-- Title Container -->
+
+		<div class="container" id="titleContainer">
+
+			<div class="row text-center">						
+				<div class="col-xs-12">
+					<div id="logoName">
+						<h1>ABC Photography</h1>
+					</div>					
+				</div>
+			
+			</div> <!-- end row -->			
+			
+		</div> <!-- end titleContainer -->
+
+	<!-- About Container -->
+
+		<div class="container" id="aboutContainer">
+	
+			<div class="row" id="aboutCamera">
+				<div class="col-sm-6 col-sm-offset-3">
+					<img src="images/photographer.jpg" class="img-responsive center-block" alt="">
+				</div>
+			</div>
+
+				<div class="container" id="aboutInfo">
+				
+					<div class="row">
+						<div class="col-sm-6 col-sm-offset-3">
+
+							<h2>I'm a photographer.</h2>  
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+
+							<div class="row">
+								<div class="col-sm-12">
+									<a href="contact.html"><button id="aboutButton" type="button" class="btn-lg btn-center-block">Contact Me</button></a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+		</div> <!-- end aboutContainer -->
+	
+	<!-- Carousel Container -->
+
+		<div class="container" id="carouselContainer"> 
+			<div class="carousel slide" id="galleryCarousel">
+		
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#galleryCarousel"></li>
+				<li data-slide-to="1" data-target="#galleryCarousel"></li>
+				<li data-slide-to="2" data-target="#galleryCarousel"></li>		
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">				
+
+					<div class="item active" id="gallerySlide1">
+					<a href="wedding.html">
+					
+						<div class="fill" style="background-image: url('images/wedding1.jpg');"></div>	
+
+					</a>
+
+						<div class="carousel-caption">
+							<h1>Wedding</h1>
+						</div>				
+					
+				</div><!-- end item -->
+				
+				<div class="item" id="gallerySlide2">
+					<a href="family.html">
+					
+						<div class="fill" style="background-image: url('images/family1.jpg');"></div>
+					
+					</a>	
+
+						<div class="carousel-caption">
+							<h1 class="carousel-caption">Baby &amp; Family</h1>				
+						</div>
+
+				</div><!-- end item -->
+				
+				<div class="item" id="gallerySlide3">
+					<a href="portrait.html">
+						
+						<div class="fill" style="background-image: url('images/portrait1.jpg');"></div>
+
+					</a>
+
+						<div class="carousel-caption">
+							<h1 class="carousel-caption">Portrait</h1>					
+						</div>			
+
+				</div><!-- end item -->
+				
+			</div><!-- carousel-inner -->
+			
+			<!-- Controls -->
+			<a class="left carousel-control" data-slide="prev" href="#galleryCarousel" id="control-left"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#galleryCarousel" id="control-right"><span class="icon-next"></span></a>
+
+
+			</div><!-- end #galleryCarousel -->
+
+		</div> <!-- end carouselContainer -->
+
+	<!-- Social Container -->
+
+		<div class="container-fluid" id="socialContainer">
+			<div class="row-fluid" id="socialRow">
+			
+				<div class="col-xs-12">
+
+					<a href="JavaScript:void(0)"><img src="images\facebook.png" class="img-responsive center-block" alt=""></a>
+					<a href="JavaScript:void(0)"><img src="images\twitter.png" class="img-responsive center-block" alt=""></a>
+					<a href="JavaScript:void(0)"><img src="images\instagram.png" class="img-responsive center-block" alt=""></a>
+
+				</div>
+				
+			</div>
+
+		</div> <!-- end socialContainer -->
+
+	<!-- Footer Container -->
+
+		<div class="container-fluid" id="footerContainer">
+			<div class="row text-center">
+				<div class="col-xs-12">
+					<h1>ABC Photography</h1>
+				</div>
+			</div> <!-- end row -->
+
+			<div class="row text-center">
+				<div class="col-xs-12">
+					<ul id="footerNav">
+							<li id="footerHomeNav">
+								<a href="#">Home</a>
+							</li>					
+									
+							<li id="footerServicesNav">
+								<a href="wedding.html">Wedding</a>
+							</li>
+
+							<li id="footerAboutNav">
+								<a href="family.html">Baby &amp; Family</a>
+							</li>
+							
+							<li>
+								<a href="portrait.html">Portrait</a>
+							</li>		
+
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>		
+						</ul>					
+				</div>
+			</div>
+		</div> <!-- end footer -->
+
+	</div> <!-- end mainContainer -->
+
+	<!-- Load online jQuery first -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Fall back to local file if online is unavailable -->
+	<script src="jquery-1.11.2.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="main.js"></script>
+	<script src="mainJQ.js"></script>
+
+	</body>
+</html>
