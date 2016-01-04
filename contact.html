@@ -86,24 +86,34 @@
 						<form name="createMessage" id="createMessage" class="col-xs-12 center-block text-center">
 							
 							
-							<div class="form-group" id="nameGroup">					
-								<label for="name" id="nameError" >Name </label>				
-								<input type="text" class="form-control" placeholder="first name" id="name" name="name" maxlength="30" onchange="nameCheck()">
+							<div class="form-group" id="nameGroup">	
+								<div class="row">
+									<div class="col-xs-6 col-xs-offset-3">
+										<label for="name" id="nameError" >Name </label>				
+										<input type="text" class="form-control" placeholder="first name" id="name" name="name" maxlength="30" onchange="nameCheck()">
+									</div>		
+								</div>		
 							</div>						
 						
-							<div class="form-group" id="emailGroup">					
-								<label for="email" id="emailError">Email </label>				
-								<input type="text" class="form-control" placeholder="email" id="email" name="email" onchange="emailCheck()">
+							<div class="form-group" id="emailGroup">					<div class="row">
+									<div class="col-xs-6 col-xs-offset-3">
+										<label for="email" id="emailError">Email </label>				
+										<input type="text" class="form-control" placeholder="email" id="email" name="email" onchange="emailCheck()">
+									</div>
+								</div>
 							</div>
 												
 
 							<div class="form-group" id="messageGroup">
-								<label for="messageBox" id="messageError">Message </label>
-								<textarea class="form-control" name="messageBox" id="messageBox" placeholder="your message" cols="20" rows="3" onblur="messageCheck()"></textarea>
+								<div class="row">
+									<div class="col-xs-6 col-xs-offset-3">		
+										<label for="messageBox" id="messageError">Message </label>
+										<textarea class="form-control" name="messageBox" id="messageBox" placeholder="your message" cols="20" rows="3" onchange="messageCheck()"></textarea>
+									</div>
+								</div>
 							</div>				
 
 							<input type="button" class="btn btn-primary" name="createMessageSubmit" id="createMessageSubmit" value="Send Message" onmouseover="turnGreen()" onclick="submitForm()" />
-
 						</form>
 					</div>
 
