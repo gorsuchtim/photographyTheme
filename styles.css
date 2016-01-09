@@ -126,8 +126,8 @@ About Container
 	color: gray;
 }
 #aboutButton {
-	margin-top: 3%;
-	margin-bottom: 3%;
+	margin-top: 25px;
+	margin-bottom: 50px;
 	background-color: rgba(0,0,0,0.5);
 	font-size: 1.75em;
 	color: white;
@@ -276,6 +276,9 @@ Contact Container
 #contactContainer h1 {	
 	font-size: 2em;	
 }
+#coName {
+	font-weight: bold;
+}
 
 /*-----------------------
 Contact Form
@@ -293,10 +296,10 @@ Small Handheld Styles
 	#logoName h1 {
 		margin-left: 10%;
 		font-size: 1.8em;
-		margin-top: 4%;
+		margin-top: 20px;
 	}		
 	#navigationContainer ul {
-		margin-top: 15%;
+		margin-top: 90px;
 	}
 	#aboutContainer {
 		padding-top: 25px;
@@ -312,11 +315,13 @@ Small Handheld Styles
 	}
 	#weddingCarousel, #familyCarousel, #portraitCarousel {
 		height: 515px;
+	}	
+	#socialContainer {
+		padding: 25px 0;
 	}
-	
 	#socialContainer img {
-		height: 40px;
-		width: 40px;
+		height: 50px;
+		width: 50px;
 	}
 	#footerContainer {
 		margin-top: 5%;
@@ -329,6 +334,9 @@ Small Handheld Styles
 		margin-left: 0;
 		margin-bottom: 10%;
 	}
+	#errorMessage {
+		display: none;
+	}
 }
 /*--------------
 Large Handheld Styles
@@ -338,13 +346,13 @@ Large Handheld Styles
 
 	#logoName h1 {
 		font-size: 2em;		
-		margin-top: 3%;
+		margin-top: 20px;
 	}
 	.menuButton {
 		margin-top: 20px;
 	}
 	#navigationContainer ul {
-		margin-top: 15%;
+		margin-top: 90px;
 	}
 	.menuClose {
 		top: 10px;
@@ -367,9 +375,6 @@ Large Handheld Styles
 	}
 	#aboutInfo p {
 		margin-top: 3%;
-	}		
-	#aboutButton {
-		margin-top: 3%;		
 	}	
 	#carouselContainer {
 		height: 515px;
@@ -381,8 +386,11 @@ Large Handheld Styles
 		height: 515px;
 	}
 	#socialContainer {
-		margin-top: 3%;
-		margin-bottom: 5%;
+		padding: 25px 0;	
+	}
+	#socialContainer img {
+		height: 50px;
+		width: 50px;
 	}
 	#footerContainer h1 {
 		font-size: 30px;
@@ -429,14 +437,16 @@ Large Handheld Styles
 		width: 45px;
 		margin-top: 5%;
 	}
+	#errorMessage {
+		display: none;
+	}
 }
 
 /*----------
 Tablet Styles
 --------------*/
 
-@media screen and (min-width: 641px) and (max-width: 992px) {
-	
+@media screen and (min-width: 641px) and (max-width: 992px) {	
 	
 	#carouselContainer {
 		height: 525px;
@@ -446,6 +456,5 @@ Tablet Styles
 	}
 	#weddingCarousel, #familyCarousel, #portraitCarousel {
 		height: 525px;
-	}
-	
+	}	
 }
